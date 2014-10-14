@@ -51,11 +51,11 @@ namespace VerbeterProject
 
             if (gokVanJohn == winnaar)
             {
-                label1.ForeColor = Color.Green;
+                lblJohn.ForeColor = Color.Green;
             }
             if (gokVanJames == winnaar)
             {
-                label2.ForeColor = Color.Green;
+                lblJames.ForeColor = Color.Green;
             }
             if (gokVanLuke == winnaar)
             {
@@ -63,7 +63,7 @@ namespace VerbeterProject
             }
             if (gokVanAnna == winnaar)
             {
-                label4.ForeColor = Color.Green;
+                lblLuke.ForeColor = Color.Green;
             }
             
         }
