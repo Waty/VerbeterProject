@@ -16,6 +16,8 @@ namespace VerbeterProject
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (!ValidateInput()) return;
+
             ResetColors();
             var randomizer = new Random();
 
@@ -33,6 +35,36 @@ namespace VerbeterProject
             if (Convert.ToInt32(textBoxJames.Text) == winnaar) lblJames.ForeColor = Color.Green;
             if (Convert.ToInt32(textBoxLuke.Text) == winnaar) lblLuke.ForeColor = Color.Green;
             if (Convert.ToInt32(textBoxAnna.Text) == winnaar) lblAnna.ForeColor = Color.Green;
+        }
+
+        private static void ShowInputError(string error)
+        {
+            MessageBox.Show(error, "Oops...", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private bool ValidateInput()
+        {
+            if (textBoxJohn.Text == String.Empty)
+            {
+                ShowInputError("John forgot to enter his bet!");
+                return false;
+            }
+            if (textBoxJames.Text == String.Empty)
+            {
+                ShowInputError("James forgot to enter his bet!");
+                return false;
+            }
+            if (textBoxLuke.Text == String.Empty)
+            {
+                ShowInputError("Luke forgot to enter his bet!");
+                return false;
+            }
+            if (textBoxAnna.Text == String.Empty)
+            {
+                ShowInputError("Anna forgot to enter her bet!");
+                return false;
+            }
+            return true;
         }
 
         private void KeuzeBox_KeyPress(object sender, KeyPressEventArgs e)
