@@ -18,6 +18,7 @@ namespace VerbeterProject
 
         private void button1_Click(object sender, EventArgs e)
         {
+            ResetColors();
             Random randomizer = new Random();
 
             //genereer een random nummer tussen 1 en 4, dit is de winnaar van de race
@@ -83,6 +84,19 @@ namespace VerbeterProject
                     e.Handled = true;
                     break;
             }
+        }
+
+        void ResetColors()
+        {
+            lblDeelnemer1.ForeColor = Color.Black;
+            lblDeelnemer2.ForeColor = Color.Black;
+            lblDeelnemer3.ForeColor = Color.Black;
+            lblDeelnemer4.ForeColor = Color.Black;
+
+            lblAnna.ForeColor = Color.Black;
+            lblJames.ForeColor = Color.Black;
+            lblJohn.ForeColor = Color.Black;
+            lblLuke.ForeColor = Color.Black;
         }
     }
 }
