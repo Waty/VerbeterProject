@@ -21,7 +21,7 @@ namespace VerbeterProject
             Random randomizer = new Random();
 
             //genereer een random nummer tussen 1 en 4, dit is de winnaar van de race
-            int winnaar = randomizer.Next(1, 4);
+            int winnaar = randomizer.Next(1, 5);
 
             //zet het nummer van de winnaar in het label
             lblWinnaar.Text = winnaar.ToString();
