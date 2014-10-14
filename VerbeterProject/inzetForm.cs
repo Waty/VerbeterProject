@@ -33,7 +33,7 @@ namespace VerbeterProject
             }
             else if (winnaar == 2)
             {
-                lblDeelnemer2.ForeColor = Color.Yellow;
+                lblDeelnemer2.ForeColor = Color.Red;
             }
             else if (winnaar == 3)
             {
