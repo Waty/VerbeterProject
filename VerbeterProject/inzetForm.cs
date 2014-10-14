@@ -36,7 +36,7 @@ namespace VerbeterProject
                     lblDeelnemer2.ForeColor = Color.Red;
                     break;
                 case 3:
-                    lblDeelnemer1.ForeColor = Color.Red;
+                    lblDeelnemer3.ForeColor = Color.Red;
                     break;
                 case 4:
                     lblDeelnemer4.ForeColor = Color.Red;
