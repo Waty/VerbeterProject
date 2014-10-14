@@ -14,7 +14,7 @@ namespace VerbeterProject
             deelnemers = new[] { lblCompetitor1, lblCompetitor2, lblCompetitor3, lblCompetitor4 };
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSimulate_Click(object sender, EventArgs e)
         {
             if (!ValidateInput()) return;
 

@@ -239,7 +239,7 @@
             this.btnSimulate.TabIndex = 10;
             this.btnSimulate.Text = "Simulate Race";
             this.btnSimulate.UseVisualStyleBackColor = true;
-            this.btnSimulate.Click += new System.EventHandler(this.button1_Click);
+            this.btnSimulate.Click += new System.EventHandler(this.btnSimulate_Click);
             // 
             // lblWinner
             // 
