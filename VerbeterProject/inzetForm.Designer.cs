@@ -30,7 +30,6 @@
         {
             this.lblJohn = new System.Windows.Forms.Label();
             this.lblJames = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.lblLuke = new System.Windows.Forms.Label();
             this.lblAnna = new System.Windows.Forms.Label();
             this.textBoxJohn = new System.Windows.Forms.TextBox();
@@ -75,15 +74,6 @@
             this.lblJames.TabIndex = 1;
             this.lblJames.Text = "James";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(25, 131);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 24);
-            this.label3.TabIndex = 2;
-            // 
             // lblLuke
             // 
             this.lblLuke.AutoSize = true;
@@ -93,6 +83,7 @@
             this.lblLuke.Size = new System.Drawing.Size(51, 24);
             this.lblLuke.TabIndex = 3;
             this.lblLuke.Text = "Luke";
+            this.lblLuke.Click += new System.EventHandler(this.lblLuke_Click);
             // 
             // lblAnna
             // 
@@ -275,7 +266,6 @@
             this.Controls.Add(this.textBoxJohn);
             this.Controls.Add(this.lblAnna);
             this.Controls.Add(this.lblLuke);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.lblJames);
             this.Controls.Add(this.lblJohn);
             this.Name = "inzetForm";
@@ -296,7 +286,6 @@
 
         private System.Windows.Forms.Label lblJohn;
         private System.Windows.Forms.Label lblJames;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblLuke;
         private System.Windows.Forms.Label lblAnna;
         private System.Windows.Forms.TextBox textBoxJohn;

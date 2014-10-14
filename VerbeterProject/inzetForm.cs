@@ -84,5 +84,10 @@ namespace VerbeterProject
                     break;
             }
         }
+
+        private void lblLuke_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
