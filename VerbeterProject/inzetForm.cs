@@ -27,21 +27,20 @@ namespace VerbeterProject
             lblWinnaar.Text = winnaar.ToString();
 
             //kleur de naam van de winnaar rood
-            if (winnaar == 1)
+            switch (winnaar)
             {
-                lblDeelnemer1.ForeColor = Color.Red;
-            }
-            else if (winnaar == 2)
-            {
-                lblDeelnemer2.ForeColor = Color.Red;
-            }
-            else if (winnaar == 3)
-            {
-                lblDeelnemer1.ForeColor = Color.Red;
-            }
-            else if (winnaar == 5)
-            {
-                lblDeelnemer4.ForeColor = Color.Red;
+                case 1:
+                    lblDeelnemer1.ForeColor = Color.Red;
+                    break;
+                case 2:
+                    lblDeelnemer2.ForeColor = Color.Red;
+                    break;
+                case 3:
+                    lblDeelnemer1.ForeColor = Color.Red;
+                    break;
+                case 4:
+                    lblDeelnemer4.ForeColor = Color.Red;
+                    break;
             }
 
             //kleur de naam van degenen die goed gegokt hebben groen
