@@ -1,17 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace VerbeterProject
 {
     public partial class InzetForm : Form
     {
-        private Label[] deelnemers;
+        private readonly Label[] deelnemers;
 
         public InzetForm()
         {
@@ -22,7 +17,7 @@ namespace VerbeterProject
         private void button1_Click(object sender, EventArgs e)
         {
             ResetColors();
-            Random randomizer = new Random();
+            var randomizer = new Random();
 
             //genereer een random nummer tussen 1 en 4, dit is de winnaar van de race
             int winnaar = randomizer.Next(1, 5);
@@ -57,7 +52,7 @@ namespace VerbeterProject
             }
         }
 
-        void ResetColors()
+        private void ResetColors()
         {
             lblDeelnemer1.ForeColor = Color.Black;
             lblDeelnemer2.ForeColor = Color.Black;
