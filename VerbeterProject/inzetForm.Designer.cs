@@ -83,7 +83,6 @@
             this.lblLuke.Size = new System.Drawing.Size(51, 24);
             this.lblLuke.TabIndex = 3;
             this.lblLuke.Text = "Luke";
-            this.lblLuke.Click += new System.EventHandler(this.lblLuke_Click);
             // 
             // lblAnna
             // 
