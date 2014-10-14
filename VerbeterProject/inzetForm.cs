@@ -68,5 +68,22 @@ namespace VerbeterProject
             }
             
         }
+
+        private void KeuzeBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            switch (e.KeyChar)
+            {
+                case '1':
+                case '2':
+                case '3':
+                case '4':
+                    e.Handled = false;
+                    break;
+
+                default:
+                    e.Handled = true;
+                    break;
+            }
+        }
     }
 }
