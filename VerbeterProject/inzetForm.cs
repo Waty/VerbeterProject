@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace VerbeterProject
 {
-    public partial class inzetForm : Form
+    public partial class InzetForm : Form
     {
-        public inzetForm()
+        public InzetForm()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace VerbeterProject
 {
-    partial class inzetForm
+    partial class InzetForm
     {
         /// <summary>
         /// Required designer variable.
@@ -267,7 +267,7 @@
             this.Controls.Add(this.lblLuke);
             this.Controls.Add(this.lblJames);
             this.Controls.Add(this.lblJohn);
-            this.Name = "inzetForm";
+            this.Name = "InzetForm";
             this.Text = "Inzetten!";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
             this.groupBox1.ResumeLayout(false);

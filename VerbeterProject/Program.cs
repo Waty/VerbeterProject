@@ -15,7 +15,7 @@ namespace VerbeterProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new inzetForm());
+            Application.Run(new InzetForm());
         }
     }
 }
