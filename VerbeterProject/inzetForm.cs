@@ -11,7 +11,7 @@ namespace VerbeterProject
         public InzetForm()
         {
             InitializeComponent();
-            deelnemers = new[] { lblDeelnemer1, lblDeelnemer2, lblDeelnemer3, lblDeelnemer4 };
+            deelnemers = new[] { lblCompetitor1, lblCompetitor2, lblCompetitor3, lblCompetitor4 };
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -23,7 +23,7 @@ namespace VerbeterProject
             int winnaar = randomizer.Next(1, 5);
 
             //zet het nummer van de winnaar in het label
-            lblWinnaar.Text = winnaar.ToString();
+            lblWinner.Text = winnaar.ToString();
 
             //kleur de naam van de winnaar rood
             deelnemers[winnaar - 1].ForeColor = Color.Red;
@@ -54,10 +54,10 @@ namespace VerbeterProject
 
         private void ResetColors()
         {
-            lblDeelnemer1.ForeColor = Color.Black;
-            lblDeelnemer2.ForeColor = Color.Black;
-            lblDeelnemer3.ForeColor = Color.Black;
-            lblDeelnemer4.ForeColor = Color.Black;
+            lblCompetitor1.ForeColor = Color.Black;
+            lblCompetitor2.ForeColor = Color.Black;
+            lblCompetitor3.ForeColor = Color.Black;
+            lblCompetitor4.ForeColor = Color.Black;
 
             lblAnna.ForeColor = Color.Black;
             lblJames.ForeColor = Color.Black;

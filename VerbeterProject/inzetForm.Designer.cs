@@ -41,12 +41,12 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblDeelnemer4 = new System.Windows.Forms.Label();
-            this.lblDeelnemer3 = new System.Windows.Forms.Label();
-            this.lblDeelnemer2 = new System.Windows.Forms.Label();
-            this.lblDeelnemer1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.lblWinnaar = new System.Windows.Forms.Label();
+            this.lblCompetitor4 = new System.Windows.Forms.Label();
+            this.lblCompetitor3 = new System.Windows.Forms.Label();
+            this.lblCompetitor2 = new System.Windows.Forms.Label();
+            this.lblCompetitor1 = new System.Windows.Forms.Label();
+            this.btnSimulate = new System.Windows.Forms.Button();
+            this.lblWinner = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -140,16 +140,16 @@
             this.groupBox1.Controls.Add(this.pictureBox3);
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Controls.Add(this.lblDeelnemer4);
-            this.groupBox1.Controls.Add(this.lblDeelnemer3);
-            this.groupBox1.Controls.Add(this.lblDeelnemer2);
-            this.groupBox1.Controls.Add(this.lblDeelnemer1);
+            this.groupBox1.Controls.Add(this.lblCompetitor4);
+            this.groupBox1.Controls.Add(this.lblCompetitor3);
+            this.groupBox1.Controls.Add(this.lblCompetitor2);
+            this.groupBox1.Controls.Add(this.lblCompetitor1);
             this.groupBox1.Location = new System.Drawing.Point(241, 29);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(428, 456);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Deelnemers";
+            this.groupBox1.Text = "Competitors";
             // 
             // pictureBox4
             // 
@@ -191,73 +191,73 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // lblDeelnemer4
+            // lblCompetitor4
             // 
-            this.lblDeelnemer4.AutoSize = true;
-            this.lblDeelnemer4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeelnemer4.Location = new System.Drawing.Point(6, 397);
-            this.lblDeelnemer4.Name = "lblDeelnemer4";
-            this.lblDeelnemer4.Size = new System.Drawing.Size(286, 24);
-            this.lblDeelnemer4.TabIndex = 3;
-            this.lblDeelnemer4.Text = "Nr 4: Ezio Auditore di Firenza";
+            this.lblCompetitor4.AutoSize = true;
+            this.lblCompetitor4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCompetitor4.Location = new System.Drawing.Point(6, 397);
+            this.lblCompetitor4.Name = "lblCompetitor4";
+            this.lblCompetitor4.Size = new System.Drawing.Size(286, 24);
+            this.lblCompetitor4.TabIndex = 3;
+            this.lblCompetitor4.Text = "Nr 4: Ezio Auditore di Firenza";
             // 
-            // lblDeelnemer3
+            // lblCompetitor3
             // 
-            this.lblDeelnemer3.AutoSize = true;
-            this.lblDeelnemer3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeelnemer3.Location = new System.Drawing.Point(6, 286);
-            this.lblDeelnemer3.Name = "lblDeelnemer3";
-            this.lblDeelnemer3.Size = new System.Drawing.Size(156, 24);
-            this.lblDeelnemer3.TabIndex = 2;
-            this.lblDeelnemer3.Text = "Nr 3: Big Daddy";
+            this.lblCompetitor3.AutoSize = true;
+            this.lblCompetitor3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCompetitor3.Location = new System.Drawing.Point(6, 286);
+            this.lblCompetitor3.Name = "lblCompetitor3";
+            this.lblCompetitor3.Size = new System.Drawing.Size(156, 24);
+            this.lblCompetitor3.TabIndex = 2;
+            this.lblCompetitor3.Text = "Nr 3: Big Daddy";
             // 
-            // lblDeelnemer2
+            // lblCompetitor2
             // 
-            this.lblDeelnemer2.AutoSize = true;
-            this.lblDeelnemer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeelnemer2.Location = new System.Drawing.Point(6, 175);
-            this.lblDeelnemer2.Name = "lblDeelnemer2";
-            this.lblDeelnemer2.Size = new System.Drawing.Size(170, 24);
-            this.lblDeelnemer2.TabIndex = 1;
-            this.lblDeelnemer2.Text = "Nr 2: Jack Carver";
+            this.lblCompetitor2.AutoSize = true;
+            this.lblCompetitor2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCompetitor2.Location = new System.Drawing.Point(6, 175);
+            this.lblCompetitor2.Name = "lblCompetitor2";
+            this.lblCompetitor2.Size = new System.Drawing.Size(170, 24);
+            this.lblCompetitor2.TabIndex = 1;
+            this.lblCompetitor2.Text = "Nr 2: Jack Carver";
             // 
-            // lblDeelnemer1
+            // lblCompetitor1
             // 
-            this.lblDeelnemer1.AutoSize = true;
-            this.lblDeelnemer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeelnemer1.Location = new System.Drawing.Point(6, 53);
-            this.lblDeelnemer1.Name = "lblDeelnemer1";
-            this.lblDeelnemer1.Size = new System.Drawing.Size(171, 24);
-            this.lblDeelnemer1.TabIndex = 0;
-            this.lblDeelnemer1.Text = "Nr 1: MasterChief";
+            this.lblCompetitor1.AutoSize = true;
+            this.lblCompetitor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCompetitor1.Location = new System.Drawing.Point(6, 53);
+            this.lblCompetitor1.Name = "lblCompetitor1";
+            this.lblCompetitor1.Size = new System.Drawing.Size(171, 24);
+            this.lblCompetitor1.TabIndex = 0;
+            this.lblCompetitor1.Text = "Nr 1: MasterChief";
             // 
-            // button1
+            // btnSimulate
             // 
-            this.button1.Location = new System.Drawing.Point(29, 235);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(153, 54);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Race Simulation";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnSimulate.Location = new System.Drawing.Point(29, 235);
+            this.btnSimulate.Name = "btnSimulate";
+            this.btnSimulate.Size = new System.Drawing.Size(153, 54);
+            this.btnSimulate.TabIndex = 10;
+            this.btnSimulate.Text = "Simulate Race";
+            this.btnSimulate.UseVisualStyleBackColor = true;
+            this.btnSimulate.Click += new System.EventHandler(this.button1_Click);
             // 
-            // lblWinnaar
+            // lblWinner
             // 
-            this.lblWinnaar.AutoSize = true;
-            this.lblWinnaar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWinnaar.Location = new System.Drawing.Point(98, 350);
-            this.lblWinnaar.Name = "lblWinnaar";
-            this.lblWinnaar.Size = new System.Drawing.Size(25, 24);
-            this.lblWinnaar.TabIndex = 11;
-            this.lblWinnaar.Text = "...";
+            this.lblWinner.AutoSize = true;
+            this.lblWinner.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWinner.Location = new System.Drawing.Point(98, 350);
+            this.lblWinner.Name = "lblWinner";
+            this.lblWinner.Size = new System.Drawing.Size(25, 24);
+            this.lblWinner.TabIndex = 11;
+            this.lblWinner.Text = "...";
             // 
-            // inzetForm
+            // InzetForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(681, 511);
-            this.Controls.Add(this.lblWinnaar);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblWinner);
+            this.Controls.Add(this.btnSimulate);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBoxAnna);
             this.Controls.Add(this.textBoxLuke);
@@ -268,7 +268,7 @@
             this.Controls.Add(this.lblJames);
             this.Controls.Add(this.lblJohn);
             this.Name = "InzetForm";
-            this.Text = "Inzetten!";
+            this.Text = "Place your bets!";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -296,12 +296,12 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lblDeelnemer4;
-        private System.Windows.Forms.Label lblDeelnemer3;
-        private System.Windows.Forms.Label lblDeelnemer2;
-        private System.Windows.Forms.Label lblDeelnemer1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label lblWinnaar;
+        private System.Windows.Forms.Label lblCompetitor4;
+        private System.Windows.Forms.Label lblCompetitor3;
+        private System.Windows.Forms.Label lblCompetitor2;
+        private System.Windows.Forms.Label lblCompetitor1;
+        private System.Windows.Forms.Button btnSimulate;
+        private System.Windows.Forms.Label lblWinner;
     }
 }
 
