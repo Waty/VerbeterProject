@@ -45,10 +45,10 @@ namespace VerbeterProject
             }
 
             //kleur de naam van degenen die goed gegokt hebben groen
-            int gokVanJohn = Convert.ToInt32(textBox1.Text);
-            int gokVanJames = Convert.ToInt32(textBox3.Text);
-            int gokVanLuke = Convert.ToInt32(textBox3.Text);
-            int gokVanAnna = Convert.ToInt32(textBox4.Text);
+            int gokVanJohn = Convert.ToInt32(textBoxJohn.Text);
+            int gokVanJames = Convert.ToInt32(textBoxLuke.Text);
+            int gokVanLuke = Convert.ToInt32(textBoxLuke.Text);
+            int gokVanAnna = Convert.ToInt32(textBoxAnna.Text);
 
             if (gokVanJohn == winnaar)
             {

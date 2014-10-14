@@ -33,10 +33,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxJohn = new System.Windows.Forms.TextBox();
+            this.textBoxJames = new System.Windows.Forms.TextBox();
+            this.textBoxLuke = new System.Windows.Forms.TextBox();
+            this.textBoxAnna = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -59,10 +59,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 39);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(25, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 29);
+            this.label1.Size = new System.Drawing.Size(52, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "John";
             // 
@@ -70,10 +69,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 97);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(25, 79);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 29);
+            this.label2.Size = new System.Drawing.Size(65, 24);
             this.label2.TabIndex = 1;
             this.label2.Text = "James";
             // 
@@ -81,20 +79,18 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(33, 161);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(25, 131);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 29);
+            this.label3.Size = new System.Drawing.Size(0, 24);
             this.label3.TabIndex = 2;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(33, 161);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(25, 131);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 29);
+            this.label4.Size = new System.Drawing.Size(51, 24);
             this.label4.TabIndex = 3;
             this.label4.Text = "Luke";
             // 
@@ -102,56 +98,51 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(33, 222);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(25, 180);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 29);
+            this.label5.Size = new System.Drawing.Size(55, 24);
             this.label5.TabIndex = 4;
             this.label5.Text = "Anna";
             // 
-            // textBox1
+            // textBoxJohn
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(156, 36);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.MaxLength = 1;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(85, 34);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
+            this.textBoxJohn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxJohn.Location = new System.Drawing.Point(117, 29);
+            this.textBoxJohn.MaxLength = 1;
+            this.textBoxJohn.Name = "textBoxJohn";
+            this.textBoxJohn.Size = new System.Drawing.Size(65, 29);
+            this.textBoxJohn.TabIndex = 5;
+            this.textBoxJohn.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
             // 
-            // textBox2
+            // textBoxJames
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(156, 97);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.MaxLength = 1;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(85, 34);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
+            this.textBoxJames.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxJames.Location = new System.Drawing.Point(117, 79);
+            this.textBoxJames.MaxLength = 1;
+            this.textBoxJames.Name = "textBoxJames";
+            this.textBoxJames.Size = new System.Drawing.Size(65, 29);
+            this.textBoxJames.TabIndex = 6;
+            this.textBoxJames.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
             // 
-            // textBox3
+            // textBoxLuke
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(156, 158);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox3.MaxLength = 1;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(85, 34);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
+            this.textBoxLuke.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxLuke.Location = new System.Drawing.Point(117, 128);
+            this.textBoxLuke.MaxLength = 1;
+            this.textBoxLuke.Name = "textBoxLuke";
+            this.textBoxLuke.Size = new System.Drawing.Size(65, 29);
+            this.textBoxLuke.TabIndex = 7;
+            this.textBoxLuke.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
             // 
-            // textBox4
+            // textBoxAnna
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(156, 218);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox4.MaxLength = 1;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(85, 34);
-            this.textBox4.TabIndex = 8;
-            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
+            this.textBoxAnna.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxAnna.Location = new System.Drawing.Point(117, 177);
+            this.textBoxAnna.MaxLength = 1;
+            this.textBoxAnna.Name = "textBoxAnna";
+            this.textBoxAnna.Size = new System.Drawing.Size(65, 29);
+            this.textBoxAnna.TabIndex = 8;
+            this.textBoxAnna.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
             // 
             // groupBox1
             // 
@@ -163,11 +154,9 @@
             this.groupBox1.Controls.Add(this.lblDeelnemer3);
             this.groupBox1.Controls.Add(this.lblDeelnemer2);
             this.groupBox1.Controls.Add(this.lblDeelnemer1);
-            this.groupBox1.Location = new System.Drawing.Point(321, 36);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(241, 29);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(571, 561);
+            this.groupBox1.Size = new System.Drawing.Size(428, 456);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Deelnemers";
@@ -175,10 +164,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::VerbeterProject.Properties.Resources.ezio;
-            this.pictureBox4.Location = new System.Drawing.Point(404, 418);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(303, 340);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(128, 121);
+            this.pictureBox4.Size = new System.Drawing.Size(96, 98);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
@@ -186,10 +174,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::VerbeterProject.Properties.Resources.bigdaddy;
-            this.pictureBox3.Location = new System.Drawing.Point(404, 290);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(303, 236);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(128, 121);
+            this.pictureBox3.Size = new System.Drawing.Size(96, 98);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
@@ -197,10 +184,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::VerbeterProject.Properties.Resources.carver;
-            this.pictureBox2.Location = new System.Drawing.Point(404, 162);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(303, 132);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(128, 121);
+            this.pictureBox2.Size = new System.Drawing.Size(96, 98);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
@@ -208,10 +194,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::VerbeterProject.Properties.Resources.masterchief;
-            this.pictureBox1.Location = new System.Drawing.Point(404, 34);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(303, 28);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(128, 121);
+            this.pictureBox1.Size = new System.Drawing.Size(96, 98);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -220,10 +205,9 @@
             // 
             this.lblDeelnemer4.AutoSize = true;
             this.lblDeelnemer4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeelnemer4.Location = new System.Drawing.Point(8, 489);
-            this.lblDeelnemer4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDeelnemer4.Location = new System.Drawing.Point(6, 397);
             this.lblDeelnemer4.Name = "lblDeelnemer4";
-            this.lblDeelnemer4.Size = new System.Drawing.Size(355, 29);
+            this.lblDeelnemer4.Size = new System.Drawing.Size(286, 24);
             this.lblDeelnemer4.TabIndex = 3;
             this.lblDeelnemer4.Text = "Nr 4: Ezio Auditore di Firenza";
             // 
@@ -231,10 +215,9 @@
             // 
             this.lblDeelnemer3.AutoSize = true;
             this.lblDeelnemer3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeelnemer3.Location = new System.Drawing.Point(8, 352);
-            this.lblDeelnemer3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDeelnemer3.Location = new System.Drawing.Point(6, 286);
             this.lblDeelnemer3.Name = "lblDeelnemer3";
-            this.lblDeelnemer3.Size = new System.Drawing.Size(196, 29);
+            this.lblDeelnemer3.Size = new System.Drawing.Size(156, 24);
             this.lblDeelnemer3.TabIndex = 2;
             this.lblDeelnemer3.Text = "Nr 3: Big Daddy";
             // 
@@ -242,10 +225,9 @@
             // 
             this.lblDeelnemer2.AutoSize = true;
             this.lblDeelnemer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeelnemer2.Location = new System.Drawing.Point(8, 215);
-            this.lblDeelnemer2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDeelnemer2.Location = new System.Drawing.Point(6, 175);
             this.lblDeelnemer2.Name = "lblDeelnemer2";
-            this.lblDeelnemer2.Size = new System.Drawing.Size(213, 29);
+            this.lblDeelnemer2.Size = new System.Drawing.Size(170, 24);
             this.lblDeelnemer2.TabIndex = 1;
             this.lblDeelnemer2.Text = "Nr 2: Jack Carver";
             // 
@@ -253,19 +235,17 @@
             // 
             this.lblDeelnemer1.AutoSize = true;
             this.lblDeelnemer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDeelnemer1.Location = new System.Drawing.Point(8, 65);
-            this.lblDeelnemer1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDeelnemer1.Location = new System.Drawing.Point(6, 53);
             this.lblDeelnemer1.Name = "lblDeelnemer1";
-            this.lblDeelnemer1.Size = new System.Drawing.Size(216, 29);
+            this.lblDeelnemer1.Size = new System.Drawing.Size(171, 24);
             this.lblDeelnemer1.TabIndex = 0;
             this.lblDeelnemer1.Text = "Nr 1: MasterChief";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(39, 289);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(29, 235);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(204, 66);
+            this.button1.Size = new System.Drawing.Size(153, 54);
             this.button1.TabIndex = 10;
             this.button1.Text = "Race Simulation";
             this.button1.UseVisualStyleBackColor = true;
@@ -275,31 +255,29 @@
             // 
             this.lblWinnaar.AutoSize = true;
             this.lblWinnaar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWinnaar.Location = new System.Drawing.Point(131, 431);
-            this.lblWinnaar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblWinnaar.Location = new System.Drawing.Point(98, 350);
             this.lblWinnaar.Name = "lblWinnaar";
-            this.lblWinnaar.Size = new System.Drawing.Size(31, 29);
+            this.lblWinnaar.Size = new System.Drawing.Size(25, 24);
             this.lblWinnaar.TabIndex = 11;
             this.lblWinnaar.Text = "...";
             // 
             // inzetForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(908, 629);
+            this.ClientSize = new System.Drawing.Size(681, 511);
             this.Controls.Add(this.lblWinnaar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxAnna);
+            this.Controls.Add(this.textBoxLuke);
+            this.Controls.Add(this.textBoxJames);
+            this.Controls.Add(this.textBoxJohn);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "inzetForm";
             this.Text = "Inzetten!";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeuzeBox_KeyPress);
@@ -321,10 +299,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxJohn;
+        private System.Windows.Forms.TextBox textBoxJames;
+        private System.Windows.Forms.TextBox textBoxLuke;
+        private System.Windows.Forms.TextBox textBoxAnna;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
