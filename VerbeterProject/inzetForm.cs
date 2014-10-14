@@ -34,28 +34,10 @@ namespace VerbeterProject
             deelnemers[winnaar - 1].ForeColor = Color.Red;
 
             //kleur de naam van degenen die goed gegokt hebben groen
-            int gokVanJohn = Convert.ToInt32(textBoxJohn.Text);
-            int gokVanJames = Convert.ToInt32(textBoxJames.Text);
-            int gokVanLuke = Convert.ToInt32(textBoxLuke.Text);
-            int gokVanAnna = Convert.ToInt32(textBoxAnna.Text);
-
-            if (gokVanJohn == winnaar)
-            {
-                lblJohn.ForeColor = Color.Green;
-            }
-            if (gokVanJames == winnaar)
-            {
-                lblJames.ForeColor = Color.Green;
-            }
-            if (gokVanLuke == winnaar)
-            {
-                lblLuke.ForeColor = Color.Green;
-            }
-            if (gokVanAnna == winnaar)
-            {
-                lblAnna.ForeColor = Color.Green;
-            }
-
+            if (Convert.ToInt32(textBoxJohn.Text) == winnaar) lblJohn.ForeColor = Color.Green;
+            if (Convert.ToInt32(textBoxJames.Text) == winnaar) lblJames.ForeColor = Color.Green;
+            if (Convert.ToInt32(textBoxLuke.Text) == winnaar) lblLuke.ForeColor = Color.Green;
+            if (Convert.ToInt32(textBoxAnna.Text) == winnaar) lblAnna.ForeColor = Color.Green;
         }
 
         private void KeuzeBox_KeyPress(object sender, KeyPressEventArgs e)
