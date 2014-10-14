@@ -11,9 +11,12 @@ namespace VerbeterProject
 {
     public partial class InzetForm : Form
     {
+        private Label[] deelnemers;
+
         public InzetForm()
         {
             InitializeComponent();
+            deelnemers = new[] { lblDeelnemer1, lblDeelnemer2, lblDeelnemer3, lblDeelnemer4 };
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -28,21 +31,7 @@ namespace VerbeterProject
             lblWinnaar.Text = winnaar.ToString();
 
             //kleur de naam van de winnaar rood
-            switch (winnaar)
-            {
-                case 1:
-                    lblDeelnemer1.ForeColor = Color.Red;
-                    break;
-                case 2:
-                    lblDeelnemer2.ForeColor = Color.Red;
-                    break;
-                case 3:
-                    lblDeelnemer3.ForeColor = Color.Red;
-                    break;
-                case 4:
-                    lblDeelnemer4.ForeColor = Color.Red;
-                    break;
-            }
+            deelnemers[winnaar - 1].ForeColor = Color.Red;
 
             //kleur de naam van degenen die goed gegokt hebben groen
             int gokVanJohn = Convert.ToInt32(textBoxJohn.Text);
@@ -66,7 +55,7 @@ namespace VerbeterProject
             {
                 lblAnna.ForeColor = Color.Green;
             }
-            
+
         }
 
         private void KeuzeBox_KeyPress(object sender, KeyPressEventArgs e)
